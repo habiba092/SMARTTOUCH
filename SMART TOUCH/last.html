@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFG HERMES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: darkgreen;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+                nav ul li a {
+                    color: yellow;
+                    text-decoration: none;
+                }
+
+        .hero {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .services {
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            width: 150px;
+            height: 100px;
+        }
+
+        .service {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        footer {
+            background-color: darkgreen;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: darkgreen;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+            button:hover {
+                background-color: darkgreen;
+            }
+
+        .popup {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            cursor: pointer;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+    </style>
+
+</head>
+<body>
+    <header style="background-color: darkgreen;">
+        <h1 style="font-family: Holtwood One SC, serif;
+            font-weight: 400;font-size:90px; " >
+            EFG HERMES
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="Html4.html">Home</a></li>
+                <li><a href="Beltone">About Us</a></li>
+                <li><a href="Beltone">Services</a></li>
+                <li><a href="Html2">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to HERMES</h2>
+            <p>We provide the best financial and investment services.</p><img src="Whi.jpg" />
+            <img src="Efg.jpg" />
+            <img src="Ch.jpg" />
+
+            <br />
+            <button id="popupBtn">Learn More</button>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Financial Consulting</h3>
+                <p>We offer comprehensive financial consulting.</p>
+            </div>
+            <br />
+            <div class="service">
+                <img src="About.jpg" style="height:250%;Width:50%;" />
+                <p>HERMES Mortgage Debuts with 22.25% Market Share,Leading in Fast and Home </p>
+            </div>
+            <div class="service">
+                <h3>Portfolio Management</h3>
+                <p>Professional management of your investment portfolios.</p>
+            </div>
+            <div class="service">
+                <img src="Cro.jpg" />
+                <p>hermes continues its sharp growth path ,reporting 812% increase you in operating revenue to record EGP1.33 billion,  Net profit recorded EGP514 MILLION IN 1Q2024</p>
+        </section>
+    </main>
+    <footer style="background-color:darkgreen;color:yellow;">
+        <p style="font-family: Holtwood One SC, serif;
+            font-weight: 400;font-size:30px; " >All rights reserved &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

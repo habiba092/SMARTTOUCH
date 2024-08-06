@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="aa">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>smart touch</title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <input type="button" value="⬅" id="bk" onclick=" window.location.href = 'Html2.html'" />
+
+
+    <video autoplay muted loop id="background-video">
+        <source src="Mix.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="logo" style="border:3px solid black; width:100%">
+
+        <img src="Logo.jpg" style="height:67px;" alt="My Cool Image">
+        <h1>
+            <br />
+            SMART TOUCH<br />
+        </h1>
+        <br />
+
+    </div>
+    <br />
+    <br />
+    <h1>sign up</h1>
+    <form>
+        <fieldset>
+            <legend>SMART TOUCH </legend>
+            <label required>username</label>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter your Name" />
+            <br /> <br />
+            <label required> Email address</label>
+            <input type="text" placeholder="your email@ "/><br /> <br />
+            <label required>password </label>
+            <br />
+            <input type="password" placeholder="enter password from 8 nb,letter" /> <br />
+            <input type="checkbox" id="rem" placeholder="remember" />
+            <label> remember me</label>
+
+            <p>select your gender</p>
+
+            <input type="radio" name="gender" id="female" />
+
+            <label for="female">female</label>
+            <br />
+            <input type="radio" name="gender" id="male" />
+            <label for="male">male </label>
+            <br />
+           
+            <input type="button" value="submit" id="sb" onclick="sub()" />
+        </fieldset>
+    </form>
+    <script src="java.js"></script>
+</body>
+</html>
